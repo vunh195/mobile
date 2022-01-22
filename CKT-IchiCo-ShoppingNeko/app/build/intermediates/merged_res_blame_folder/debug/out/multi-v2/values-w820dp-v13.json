@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\HK6\\Mobile Programming\\Final Project\\CKT-IchiCo-ShoppingNeko\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w820dp-v13\\values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "E:\\HK6\\Mobile Programming\\Week05\\Practice 2 Shopping Mall Homepage\\Phone\\.gradle\\caches\\transforms-2\\files-2.1\\1e587fee5b8f7a5363d902d9b485f2f2\\jetified-alerter-2.0.6\\res\\values-w820dp-v13\\values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

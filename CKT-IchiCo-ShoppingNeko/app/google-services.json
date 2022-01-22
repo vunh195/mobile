@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "896787722933",
+    "firebase_url": "https://ckt-ichico-shoppingneko-default-rtdb.firebaseio.com",
+    "project_id": "ckt-ichico-shoppingneko",
+    "storage_bucket": "ckt-ichico-shoppingneko.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896787722933:android:a1d9a8a4f5557f070844fc",
+        "android_client_info": {
+          "package_name": "CKT.IchiCo.ShoppingNeko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896787722933-ki10rtsc0g3uqb4jp4ecmhcof3jt2i4m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB9r5W5Em98IvKwUb1h1HyDd4OJSxJgvKs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896787722933-ki10rtsc0g3uqb4jp4ecmhcof3jt2i4m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

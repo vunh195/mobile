@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-stats:15.0.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-stats-15.0.1.aar/ee30dbd0b63c6f46b2bafb35eacf0849/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/899af47bccfcecdb67e116fe8c7089e1/play-services-stats-15.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1de91c46e95c1a78436376560d3bf1f/jetified-play-services-stats-15.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1de91c46e95c1a78436376560d3bf1f/jetified-play-services-stats-15.0.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f1de91c46e95c1a78436376560d3bf1f/jetified-play-services-stats-15.0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Week05/Practice 2 Shopping Mall Homepage/Phone/.gradle/caches/transforms-2/files-2.1/e9a8ca3d35862a83a220fb70fc00e073/jetified-play-services-stats-15.0.1/res" />
+      <root url="file://$PROJECT_DIR$/../../Week05/Practice 2 Shopping Mall Homepage/Phone/.gradle/caches/transforms-2/files-2.1/e9a8ca3d35862a83a220fb70fc00e073/jetified-play-services-stats-15.0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../Week05/Practice 2 Shopping Mall Homepage/Phone/.gradle/caches/transforms-2/files-2.1/e9a8ca3d35862a83a220fb70fc00e073/jetified-play-services-stats-15.0.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

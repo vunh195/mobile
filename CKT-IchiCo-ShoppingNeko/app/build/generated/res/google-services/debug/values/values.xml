@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">896787722933-ki10rtsc0g3uqb4jp4ecmhcof3jt2i4m.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ckt-ichico-shoppingneko-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">896787722933</string>
+    <string name="google_api_key" translatable="false">AIzaSyB9r5W5Em98IvKwUb1h1HyDd4OJSxJgvKs</string>
+    <string name="google_app_id" translatable="false">1:896787722933:android:a1d9a8a4f5557f070844fc</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB9r5W5Em98IvKwUb1h1HyDd4OJSxJgvKs</string>
+    <string name="google_storage_bucket" translatable="false">ckt-ichico-shoppingneko.appspot.com</string>
+    <string name="project_id" translatable="false">ckt-ichico-shoppingneko</string>
+</resources>

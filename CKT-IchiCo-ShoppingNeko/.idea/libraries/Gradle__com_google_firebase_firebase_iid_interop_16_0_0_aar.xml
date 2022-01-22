@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-iid-interop:16.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/b3a2b246ba3921f233211f25714017d1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/647b9ad34847c2cfb8cede31ecba6279/firebase-iid-interop-16.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddd64cf7e6a5a33f517593052ee08651/jetified-firebase-iid-interop-16.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddd64cf7e6a5a33f517593052ee08651/jetified-firebase-iid-interop-16.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ddd64cf7e6a5a33f517593052ee08651/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../Week05/Practice 2 Shopping Mall Homepage/Phone/.gradle/caches/transforms-2/files-2.1/076724e4909dd012f2ef2aec8f65ac42/jetified-firebase-iid-interop-16.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../Week05/Practice 2 Shopping Mall Homepage/Phone/.gradle/caches/transforms-2/files-2.1/076724e4909dd012f2ef2aec8f65ac42/jetified-firebase-iid-interop-16.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../Week05/Practice 2 Shopping Mall Homepage/Phone/.gradle/caches/transforms-2/files-2.1/076724e4909dd012f2ef2aec8f65ac42/jetified-firebase-iid-interop-16.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

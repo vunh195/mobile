@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="CKT.IchiCo.ShoppingNeko">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.LoginActivity"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.RegisterActivity"
+            android:theme="@style/NoActionBar">
+        </activity>
+
+        <activity
+            android:name=".Welcomeactivity"
+            android:theme="@style/FullScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.MainActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.CategoryProductsActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.MainActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.ProductDetailsActivity"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.CategoryProductsActivity" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.CartActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.OrderActivity"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.CartActivity" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.WishlistProductsActivity"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.MainActivity" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.WishlistProductDetailsActivity"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.WishlistProductsActivity" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.SearchableActivity"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.CategoryProductsActivity" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.UserOrdersActivity"
+            android:launchMode="singleTop"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.MainActivity"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.OrderDetailsActivity"
+            android:parentActivityName="CKT.IchiCo.ShoppingNeko.activities.UserOrdersActivity" />
+
+        <receiver android:name="CKT.IchiCo.ShoppingNeko.appwidget.WishlistAppWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/wishlist_app_widget" />
+        </receiver>
+
+        <service
+            android:name="CKT.IchiCo.ShoppingNeko.appwidget.WishlistGridRemoteService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+        <service
+            android:name="CKT.IchiCo.ShoppingNeko.appwidget.WishlistWidgetService"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name="CKT.IchiCo.ShoppingNeko.activities.RegisterActivity"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
